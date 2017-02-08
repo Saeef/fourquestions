@@ -1,4 +1,5 @@
   ### <kbd>customerSurvey</kbd> &nbsp; :rocket:
+  Not finished
 
 <hr />
 <br />
@@ -19,7 +20,6 @@
   
 <br />
   
-<kbd>bubble central</kbd> now making it interactive whereby user sets number of bubbles, wind, and speed.
-![xxx](xxx.png?raw=true "mobile" target="_blank")
-  # fourquestions
-# fourquestions
+<kbd>not finished</kbd> not finished
+![one](one.png?raw=true "mobile" target="_blank")
+
