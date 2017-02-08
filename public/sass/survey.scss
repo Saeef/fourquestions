@@ -1,0 +1,70 @@
+/* ----------------------------------------------------------------------------
+
+ survey
+   ____________________________________________________________________________
+*/
+
+
+
+
+.main  {
+	.row {
+		.survey {
+			background: $footer;
+			padding:2em 0;
+			.intro {
+				padding:0 1em;
+				h1 {
+					margin-bottom: .5em;
+				}//h1
+				p  {
+					margin:1em 0;
+					font-size: 16px;
+					line-height: 22px;
+					.high {
+						color: #ff5342;
+    					font-weight: bold;
+					}
+				}//p
+			}//intro
+			.surveyMain {
+				padding:0 1em;
+				h2 {
+					margin:1em 0;
+				}//h2
+				input {
+					width: 350px;
+				    padding: 1em;
+				    font-size: 16px;
+				    line-height: 20px;
+				    border-radius: 7px;
+				    box-shadow: inset 0px -1px 3px #999999;
+				}//input
+				.surveyResults {
+					margin:2em 0;
+					h3 {
+						text-decoration: underline;
+						margin-bottom:1em;
+						font-size: 24px;
+						line-height: 30px;
+					}//h3
+					p {
+						font-size: 16px;
+						line-height: 24px;
+						text-align: left;
+						color: #ff5342;
+
+					}//p
+
+				}//surveyResults
+
+			}//surveyMain
+
+		}//survey
+	
+
+	}//row
+	
+
+
+}//main box

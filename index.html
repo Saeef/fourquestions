@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ThisPlace.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css?rel=1486513134823">
+  <link rel="stylesheet" type="text/css" href="public/builds/css/styles.css?rel=1486513134823">
+  <!-- google material icons   -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" href="public/sass/styles.scss?rel=1486305765057">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!-- sticky footer IE6 -->    
+  <!--[if !IE 7]>
+  <style type="text/css">
+    #wrapper {display:table;height:100%}
+  </style>
+ <![endif]-->
+
+<script type="text/javascript">
+    
+    function getQuestions() {
+
+      $.ajax({
+
+        url:"http://localhost/surveyserver.php",
+        type:"POST",
+        data:"questionNumber="+$('#questionNumber').val(),
+        dataType:"json",
+        success: function(response,status, http) {
+
+          console.log(response);
+          var results = "";
+          $.each(response, function(index,item) {
+            results += "Number: " + item.number + "<br />";
+            results += "Possible questions: " + item["possibleQuestions"] + "<br/>";
+          });
+          $('#results').html(results);
+
+        },
+        error: function(http, status, error) {
+          alert('some error occurred : ' + error);
+        }
+
+
+      });
+
+
+
+    }
+
+
+  </script>
+</head>
+
+</head>
+<body>
+  <div id="wrapper">
+      <header class="header">
+        <div class="branding container">
+          <div class="logo">
+            <img src="public/builds/assets/images/logo.png" alt="Mario" 
+             style="max-width:95px;
+             height:auto; display:block; margin:0 auto;"></div>
+          <div class="mainheading">
+            <h1>4 randomly selected Questions POST to PHP
+            <span class="sub"></span></h1>
+            <h2>Delivered by Ajax, from JavaScript in Json
+            </h2>
+          </div>
+        </div>
+      </header>   <!--  end of header   -->    
+
+      <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12" >
+              
+               <!--  survey starts here   -->    
+             
+            <div class="survey">
+              
+                <section class="intro">
+                  
+                  <h1>Getting information back from the server.</h1>
+                  <h3>
+                     Enter a number from 1 to four to get  3 possible questions
+                     that you may ask.
+                  </h3>
+          
+
+                </section> 
+
+                <section class="surveyMain">
+                  
+                   <h2>Get Question Number:</h2>
+                       <input type="number" name="questionNumber" id="questionNumber" 
+                       onkeyup="getQuestions();" />
+                  
+                   <div class="surveyResults">
+
+                       <h3>Results:</h3>
+
+                        <p id="results"></p>    
+                   </div> 
+        
+
+                </section>
+
+
+            </div>  <!--  end of div survey   -->    
+
+            <!--  end of survey   -->   
+
+
+
+
+            </div>  <!--  end of div md-12   -->    
+          </div>  <!--  end of div row   -->    
+
+
+
+          
+
+        </div><!-- container -->
+
+      </div><!-- main -->
+    </div>  <!--  end of div wrapper   -->      
+
+
+  <footer class="footer container">
+    
+    <div class="row">
+      <section class="cenfoo">
+      <p class="col-md-offset-1 col-md-4 bottom">
+        Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. 
+      </p>
+      <p class="col-md-offset-1 col-md-4 bottom">
+        Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. 
+      </p>
+      </section> <!--  end of div cenfoo   -->    
+    </div>
+  </footer>
+
+
+<script src="bower_components/jquery/dist/jquery.js?rel=1486513134823"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js?rel=1486513134823"></script>
+<script src="public/builds/js/myscript.min.js?rel=1486513134823"></script>
+<script src="bower_components/nanobar/nanobar.min.js"></script>
+<script src="public/js/myscript.js"></script>
+
+<script><!-- 219b / 4ms  -->
+        var nanobar = new Nanobar();
+        nanobar.go(100);
+        var menubar = new Nanobar({
+            target: document.getElementById('primary-nav')
+        });
+        <!-- width 61 -->
+        menubar.go();
+       
+    </script>
+
+</body>
+
+
+
+
+</body>
+</html>

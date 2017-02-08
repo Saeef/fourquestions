@@ -1,0 +1,208 @@
+@import "compass";
+@import "compass/utilities";
+@import "compass/css3";
+@import "variables";
+@import "base";
+@import "survey";
+@import "compass/css3/animation";
+@import "footer";
+
+
+
+
+/* ----------------------------------------------------------------------------
+
+   Style.css
+   ____________________________________________________________________________
+*/
+
+
+html  {
+    height: 100%;
+    background-color: $white;
+
+
+
+    body {
+        height: 100%;
+        font-family: $font-secondary;
+        font-weight: 300;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        
+        &:before {
+            content: "";
+            height: 100%;
+            float: left;
+            width: 0;
+            margin-top: -32767px;
+        }//before    
+        #wrapper {
+            min-height: 100%;
+            header.header {
+                background:url("../assets/images/featureimg.jpg") no-repeat 0 0;
+                z-index: 200;
+                padding: 40px 0;
+                height: 325px;
+                width: 100%;
+                .branding {
+                    padding: 0 25px;
+                    margin: 0 auto;
+                    .logo  {
+                        width: 10%;
+                        float: left;
+                        height: 115px;
+                        cursor: pointer;
+                        transition:all .5s; 
+                        
+                        
+                        img {
+                            border-radius: 50%;
+                            -webkit-transition: -webkit-transform .8s ease-in-out;
+                            transition: transform .8s ease-in-out;
+                            height: 115px;
+                            min-width: 45px; 
+                            &:hover {
+                                -webkit-transform: rotate(360deg);
+                                transform: rotate(360deg);
+                                box-shadow: 1px 0px 0px 3px rgba(0, 0, 0, 0.75);
+                            }//hover
+                        }//img
+
+                    }//logo
+                    .mainheading {
+                        float:left;
+                        margin-left: 2.25em;
+                    }//mainheading
+                }//branding    
+
+            }//header
+        
+        }//wrapper
+
+    }//body
+
+
+
+        
+
+
+
+
+
+a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: $color_old_lace_approx;
+}
+
+img  {
+    width: 100%;
+}
+
+
+
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+        color: $color_gray_nurse_approx;
+        vertical-align: middle;
+        padding: 7px 3px;
+
+    }    
+    
+    h2  { 
+        font-family: $font-secondary;
+        font-size: 36px;
+        line-height: 40px;
+        color: $color_atoll_approx;
+        padding: 3px 5px;
+    }
+
+    
+
+    
+
+
+.main {
+    background-color: $white;
+    padding: 35px 0 50px;
+    overflow: auto;
+    padding-bottom: 250px;
+    min-height: 200px;
+    clear: both;
+    text-align: center;
+    .container {
+        padding: 0 25px;
+    }
+
+    figcaption {
+        text-align: center;
+        font-weight: normal;
+        color: $color_flamingo_approx;
+    }
+
+    .center {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }//center
+    
+  
+
+form {
+    font-size: 1.8rem;
+    color: $color_terracotta_approx;
+    margin: 20px 0;
+}    
+
+
+
+
+
+
+
+}//main
+
+
+//input[type="date"]  {
+    //background-color: $color_old_lace_approx;
+//}
+
+
+
+/* Rules for using icons as black on a light background. */
+
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 36px;
+    line-height: 100%;
+    &:hover {
+        color: rgba(40, 130, 111, 0.92);
+    } //hover bright    
+} //google-icons
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+
+/* Rules for using icons as white on a dark background. 
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}   */  
+
+
+
+
+
+
+}//html

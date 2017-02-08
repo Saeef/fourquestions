@@ -1,0 +1,17 @@
+/*  imports & applies Eric Meyer's Reset.css
+--------------------------------------------     */
+@import "compass/reset/";
+
+
+
+/* grabs google fonts
+--------------------------------------------     */
+
+@import url('https://fonts.googleapis.com/css?family=Nobile');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+/* sets primary & secondary fonts
+----------------------------------------------   */
+$font-primary: 'Nobile', serif, arial;
+$font-secondary: 'Merriweather', serif, arial;
+

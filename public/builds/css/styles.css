@@ -1,0 +1,335 @@
+/* ----------------------------------------------------------------------------
+
+ colors == variables.scss
+   ____________________________________________________________________________
+*/
+/*
+--------------------
+ past colors
+____________________
+*/
+/*  imports & applies Eric Meyer's Reset.css
+--------------------------------------------     */
+@import url("https://fonts.googleapis.com/css?family=Nobile");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+/* line 5, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* grabs google fonts
+--------------------------------------------     */
+/* sets primary & secondary fonts
+----------------------------------------------   */
+/* ----------------------------------------------------------------------------
+
+ survey
+   ____________________________________________________________________________
+*/
+/* line 12, ../../sass/survey.scss */
+.main .row .survey {
+  background: #197a92;
+  padding: 2em 0;
+}
+/* line 15, ../../sass/survey.scss */
+.main .row .survey .intro {
+  padding: 0 1em;
+}
+/* line 17, ../../sass/survey.scss */
+.main .row .survey .intro h1 {
+  margin-bottom: .5em;
+}
+/* line 20, ../../sass/survey.scss */
+.main .row .survey .intro p {
+  margin: 1em 0;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* line 24, ../../sass/survey.scss */
+.main .row .survey .intro p .high {
+  color: #ff5342;
+  font-weight: bold;
+}
+/* line 30, ../../sass/survey.scss */
+.main .row .survey .surveyMain {
+  padding: 0 1em;
+}
+/* line 32, ../../sass/survey.scss */
+.main .row .survey .surveyMain h2 {
+  margin: 1em 0;
+}
+/* line 35, ../../sass/survey.scss */
+.main .row .survey .surveyMain input {
+  width: 350px;
+  padding: 1em;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 7px;
+  box-shadow: inset 0px -1px 3px #999999;
+}
+/* line 43, ../../sass/survey.scss */
+.main .row .survey .surveyMain .surveyResults {
+  margin: 2em 0;
+}
+/* line 45, ../../sass/survey.scss */
+.main .row .survey .surveyMain .surveyResults h3 {
+  text-decoration: underline;
+  margin-bottom: 1em;
+  font-size: 24px;
+  line-height: 30px;
+}
+/* line 51, ../../sass/survey.scss */
+.main .row .survey .surveyMain .surveyResults p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #ff5342;
+}
+
+/* ----------------------------------------------------------------------------
+
+   footer.scss
+   ____________________________________________________________________________
+*/
+/* line 10, ../../sass/footer.scss */
+.footer {
+  font-family: "Merriweather", serif, arial;
+  color: #f7531e;
+  background-color: #197a92;
+  position: relative;
+  margin-top: -250px;
+  clear: both;
+  height: 250px;
+  width: 100%;
+}
+/* line 19, ../../sass/footer.scss */
+.footer .cenfoo {
+  padding-top: 3.5em;
+  overflow: auto;
+  height: 250px;
+}
+/* line 22, ../../sass/footer.scss */
+.footer .cenfoo p.bottom {
+  font-family: "Merriweather", serif, arial;
+  font-family: "Merriweather", serif, arial;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(35, 62, 62, 0.82);
+  text-shadow: -1px 3px 45px white;
+}
+
+/* ----------------------------------------------------------------------------
+
+   Style.css
+   ____________________________________________________________________________
+*/
+/* line 20, ../../sass/styles.scss */
+html {
+  height: 100%;
+  background-color: #ffffff;
+  /* Rules for using icons as black on a light background. */
+  /* Rules for using icons as white on a dark background. 
+  
+  .material-icons.md-light {
+      color: rgba(255, 255, 255, 1);
+  }
+  
+  .material-icons.md-light.md-inactive {
+      color: rgba(255, 255, 255, 0.3);
+  }   */
+}
+/* line 26, ../../sass/styles.scss */
+html body {
+  height: 100%;
+  font-family: "Merriweather", serif, arial;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 35, ../../sass/styles.scss */
+html body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+/* line 42, ../../sass/styles.scss */
+html body #wrapper {
+  min-height: 100%;
+}
+/* line 44, ../../sass/styles.scss */
+html body #wrapper header.header {
+  background: url("../assets/images/featureimg.jpg") no-repeat 0 0;
+  z-index: 200;
+  padding: 40px 0;
+  height: 325px;
+  width: 100%;
+}
+/* line 50, ../../sass/styles.scss */
+html body #wrapper header.header .branding {
+  padding: 0 25px;
+  margin: 0 auto;
+}
+/* line 53, ../../sass/styles.scss */
+html body #wrapper header.header .branding .logo {
+  width: 10%;
+  float: left;
+  height: 115px;
+  cursor: pointer;
+  transition: all .5s;
+}
+/* line 61, ../../sass/styles.scss */
+html body #wrapper header.header .branding .logo img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  height: 115px;
+  min-width: 45px;
+}
+/* line 67, ../../sass/styles.scss */
+html body #wrapper header.header .branding .logo img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  box-shadow: 1px 0px 0px 3px rgba(0, 0, 0, 0.75);
+}
+/* line 75, ../../sass/styles.scss */
+html body #wrapper header.header .branding .mainheading {
+  float: left;
+  margin-left: 2.25em;
+}
+/* line 95, ../../sass/styles.scss */
+html a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #fdf6e4;
+}
+/* line 102, ../../sass/styles.scss */
+html img {
+  width: 100%;
+}
+/* line 108, ../../sass/styles.scss */
+html h1 {
+  font-size: 32px;
+  line-height: 36px;
+  color: #eaeaea;
+  vertical-align: middle;
+  padding: 7px 3px;
+}
+/* line 117, ../../sass/styles.scss */
+html h2 {
+  font-family: "Merriweather", serif, arial;
+  font-size: 36px;
+  line-height: 40px;
+  color: #044d5f;
+  padding: 3px 5px;
+}
+/* line 130, ../../sass/styles.scss */
+html .main {
+  background-color: #ffffff;
+  padding: 35px 0 50px;
+  overflow: auto;
+  padding-bottom: 250px;
+  min-height: 200px;
+  clear: both;
+  text-align: center;
+}
+/* line 138, ../../sass/styles.scss */
+html .main .container {
+  padding: 0 25px;
+}
+/* line 142, ../../sass/styles.scss */
+html .main figcaption {
+  text-align: center;
+  font-weight: normal;
+  color: #f7531e;
+}
+/* line 148, ../../sass/styles.scss */
+html .main .center {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 156, ../../sass/styles.scss */
+html .main form {
+  font-size: 1.8rem;
+  color: #e76c5a;
+  margin: 20px 0;
+}
+/* line 179, ../../sass/styles.scss */
+html .material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 36px;
+  line-height: 100%;
+}
+/* line 183, ../../sass/styles.scss */
+html .material-icons.md-dark:hover {
+  color: rgba(40, 130, 111, 0.92);
+}
+/* line 188, ../../sass/styles.scss */
+html .material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
