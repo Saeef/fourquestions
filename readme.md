@@ -6,12 +6,12 @@
   - for example: if i enter a number from 1 thru four       
     - i'll get 3 possible outcomes (or questions) in return from the server       
   
-        - press 1       
+        - <kbd>press 1</kbd>       
             **question a** 'what's your name'        
             **question b** 'what your favorite website'       
             **question c** 'what's your favorite blog'        
             
-        - press 2        
+        - <kbd>press 2</kbd>        
             to get a different set of questions back        
   
 
