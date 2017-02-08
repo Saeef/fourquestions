@@ -10,12 +10,13 @@
 .main  {
 	.row {
 		.survey {
-			background: $footer;
+			
 			padding:2em 0;
 			.intro {
 				padding:0 1em;
 				h1 {
 					margin-bottom: .5em;
+					color:$orange;
 				}//h1
 				p  {
 					margin:1em 0;
