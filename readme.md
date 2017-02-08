@@ -7,9 +7,9 @@
     - i'll get 3 possible outcomes (or questions) in return from the server       
   
         - press 1       
-            question a 'what's your name'        
-            question b 'what your favorite website'       
-            question c 'what's your favorite blog'        
+            **question a** 'what's your name'        
+            **question b** 'what your favorite website'       
+            **question c** 'what's your favorite blog'        
             
         - press 2        
             to get a different set of questions back        
