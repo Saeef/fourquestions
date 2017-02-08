@@ -1,18 +1,18 @@
 ### <kbd>customerSurvey</kbd> &nbsp; :rocket:
-  Not finished
+  Not finished     
   
-  An inline event (key up) invokes a function that through ajax makes a call to a local php server file,
-  in order to get some data back from it.
-  - for example: if i enter a number from 1 thru four
-    - i'll get 3 possible outcomes (or questions) in return from the server
+  An inline event (key up) invokes a function that through ajax makes a call to a local php server file,      
+  in order to get some data back from it.     
+  - for example: if i enter a number from 1 thru four       
+    - i'll get 3 possible outcomes (or questions) in return from the server       
   
-        - press 1
-            question a 'what's your name'
-            question b 'what your favorite website'
-            question c 'what's your favorite blog'
+        - press 1       
+            question a 'what's your name'        
+            question b 'what your favorite website'       
+            question c 'what's your favorite blog'        
             
-        - press 2
-            to get a different set of questions back
+        - press 2        
+            to get a different set of questions back        
   
 
 
