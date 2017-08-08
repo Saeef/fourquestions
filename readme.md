@@ -1,4 +1,4 @@
-### <kbd>customerSurvey</kbd> &nbsp; :rocket:
+### <kbd>customerSurvey &nbsp; :rocket:</kbd> 
   Not finished     
   
   An inline event (key up) invokes a function that through ajax makes a call to a local php server file,      
@@ -22,7 +22,7 @@
 <br />
 
 
-### <kbd>To run/install</kbd> :key:
+### <kbd>To run/install :key:</kbd> 
 <kbd>1</kbd> git clone repo :moyai:&nbsp;
 <kbd>2</kbd> npm install :fuelpump:&nbsp;
 <kbd>3</kbd> bower install :izakaya_lantern: &nbsp;
@@ -37,7 +37,7 @@
   
 <br />
   
-<kbd>not finished</kbd> not finished
+<kbd>not finished</kbd> 
 
 ![one](layoutUpdate1.png)
 
