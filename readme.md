@@ -1,5 +1,4 @@
 ### <kbd>customerSurvey &nbsp; :rocket:</kbd> 
-  Not finished     
   
   An inline event (key up) invokes a function that through ajax makes a call to a local php server file,      
   in order to get some data back from it.     
@@ -37,7 +36,7 @@
   
 <br />
   
-<kbd>not finished</kbd> 
+<kbd>survey</kbd> 
 
 ![one](layoutUpdate1.png)
 
