@@ -38,5 +38,6 @@
 <br />
   
 <kbd>not finished</kbd> not finished
-![one](layoutUpdate1.png?raw=true "mobile" target="_blank")
+
+![one](layoutUpdate1.png)
 
