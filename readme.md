@@ -1,7 +1,6 @@
 ### <kbd>customerSurvey &nbsp; :rocket:</kbd> 
   
-  An inline event (key up) invokes a function that through ajax makes a call to a local php server file,      
-  in order to get some data back from it.     
+  An inline key up event fires off an Ajax call to a local php server file and returns data back.
   - for example: if i enter a number from 1 thru four       
     - i'll get 3 possible outcomes (or questions) in return from the server       
   
